@@ -20,7 +20,7 @@ public class Student implements Serializable {
     
     public void listGrades() {
         for (Grade grade : grades) {
-            System.out.println("Kurssi: " + grade.course + ", Arvosana: " + grade.grade);
+            System.out.println(grade.course + ": " + grade.grade);
         }
     }
 
