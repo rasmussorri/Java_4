@@ -8,8 +8,6 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
-// Kirjoittaa serialisoituvan students-tietorakenteen tiedostoon
-
 public class University {
     ArrayList<Student> students = new ArrayList<>();
 
@@ -42,6 +40,7 @@ public class University {
         }
     }
 
+    @SuppressWarnings("unchecked")
     public void loadFromFile(String filename) {
         try {
             ObjectInputStream fileReader = new ObjectInputStream(new FileInputStream(filename));
