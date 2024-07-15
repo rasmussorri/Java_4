@@ -50,8 +50,8 @@ public class App
                         break;
                     
                     case 4:
-                        System.out.println("Minkä opiskelijan suoritteet listataan?");
                         university.listStudentsWithIndex();
+                        System.out.println("Minkä opiskelijan suoritteet listataan?");
                         stringChoice = sc.nextLine();
                         choice = Integer.parseInt(stringChoice);
 
@@ -59,8 +59,8 @@ public class App
                         break;
                     
                     case 5:
-                        System.out.println("Minkä opiskelijan suoritteiden keskiarvo lasketaan?");
                         university.listStudentsWithIndex();
+                        System.out.println("Minkä opiskelijan suoritteiden keskiarvo lasketaan?");
                         stringChoice = sc.nextLine();
                         choice = Integer.parseInt(stringChoice);
 
@@ -69,8 +69,8 @@ public class App
                         break;
 
                     case 6:
-                        System.out.println("Minkä opiskelijan suoritteiden mediaani lasketaan?");
                         university.listStudentsWithIndex();
+                        System.out.println("Minkä opiskelijan suoritteiden mediaani lasketaan?");
                         stringChoice = sc.nextLine();
                         choice = Integer.parseInt(stringChoice);
                         double median = Calculator.getMedianGrade(university.students.get(choice));
