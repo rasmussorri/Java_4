@@ -36,8 +36,8 @@ public class App
                         break;
 
                     case 3:
-                        System.out.println("Mille opiskelijalle suorite lisätään?");
                         university.listStudentsWithIndex();
+                        System.out.println("Mille opiskelijalle suorite lisätään?");
                         String stringChoice = sc.nextLine();
                         int choice = Integer.parseInt(stringChoice);
                         System.out.println("Mille kurssille suorite lisätään?");
