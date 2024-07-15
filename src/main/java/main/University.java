@@ -40,7 +40,7 @@ public class University {
         }
     }
 
-    @SuppressWarnings("unchecked")
+    // @SuppressWarnings("unchecked")
     public void loadFromFile(String filename) {
         try {
             ObjectInputStream fileReader = new ObjectInputStream(new FileInputStream(filename));
