@@ -24,7 +24,7 @@ public class University {
     public void listStudentsWithIndex() {
         int i = 0;
         for (Student student : students) {
-            System.out.print(i + ": " + student.studentName);
+            System.out.println(i + ": " + student.studentName);
             i++;
         }
     }
