@@ -69,7 +69,7 @@ public class App
                         break;
 
                     case 6:
-                        System.out.println("Minkä opiskelijan suoritusten mediaani lasketaan?");
+                        System.out.println("Minkä opiskelijan suoritteiden mediaani lasketaan?");
                         university.listStudentsWithIndex();
                         stringChoice = sc.nextLine();
                         choice = Integer.parseInt(stringChoice);

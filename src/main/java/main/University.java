@@ -24,7 +24,7 @@ public class University {
     public void listStudentsWithIndex() {
         int i = 0;
         for (Student student : students) {
-            System.out.println(i + ": " + student.studentName);
+            System.out.print(i + ": " + student.studentName);
             i++;
         }
     }
@@ -40,7 +40,6 @@ public class University {
         }
     }
 
-    // @SuppressWarnings("unchecked")
     public void loadFromFile(String filename) {
         try {
             ObjectInputStream fileReader = new ObjectInputStream(new FileInputStream(filename));
