@@ -65,7 +65,7 @@ public class App
                         choice = Integer.parseInt(stringChoice);
 
                         double average = Calculator.getAverageGrade(university.students.get(choice));
-                        System.out.println("Keskiarvo: " + average);
+                        System.out.println("Keskiarvo on " + average);
                         break;
 
                     case 6:
@@ -74,7 +74,7 @@ public class App
                         stringChoice = sc.nextLine();
                         choice = Integer.parseInt(stringChoice);
                         double median = Calculator.getMedianGrade(university.students.get(choice));
-                        System.out.println("Mediaani: " + median);
+                        System.out.println("Mediaani on " + median);
                         break;
                     
                     case 7:
